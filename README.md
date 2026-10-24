@@ -72,7 +72,13 @@ Also building Python and Bash tooling to make recon and reporting faster than do
   <img src="https://img.shields.io/badge/-ISO%2027001-0d1a2b?style=flat-square&logoColor=ffb020" alt="ISO 27001" />
 </p>
 
-<img src="assets/sec-03.svg" width="100%" alt="Operations" />
+<img src="assets/sec-03.svg" width="100%" alt="Method" />
+
+<img src="assets/method.svg" width="100%" alt="Engagement lifecycle" />
+
+Every engagement runs the same five stages. No stage is skipped because the previous one looked convincing — most real findings hide in enumeration, not in the exploit.
+
+<img src="assets/sec-04.svg" width="100%" alt="Operations" />
 
 <table width="100%">
   <tr>
@@ -112,7 +118,7 @@ Also building Python and Bash tooling to make recon and reporting faster than do
   </tr>
 </table>
 
-<img src="assets/sec-04.svg" width="100%" alt="Credentials" />
+<img src="assets/sec-05.svg" width="100%" alt="Credentials" />
 
 <table width="100%">
   <tr>
@@ -149,7 +155,7 @@ Also building Python and Bash tooling to make recon and reporting faster than do
 
 <sub>**DEPI** professional program (2024–2025) — curriculum aligned with Security+, CEH v12, Network+, CCNA Cyber Ops, Linux+ and eWPT.</sub>
 
-<img src="assets/sec-05.svg" width="100%" alt="Signal" />
+<img src="assets/sec-06.svg" width="100%" alt="Signal" />
 
 <table width="100%">
   <tr>
