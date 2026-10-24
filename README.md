@@ -10,7 +10,7 @@
   <a href="mailto:yousif.98449@cs.mti.edu.eg"><img src="https://img.shields.io/badge/-Email-0d1a2b?style=flat-square&logo=gmail&logoColor=00e58a" height="26" alt="Email" /></a>
   <a href="https://linkedin.com/in/yousif-elalfy"><img src="https://img.shields.io/badge/-LinkedIn-0d1a2b?style=flat-square&logo=linkedin&logoColor=00e58a" height="26" alt="LinkedIn" /></a>
   <img src="https://img.shields.io/badge/-Cairo%2C%20Egypt-0d1a2b?style=flat-square&logo=googlemaps&logoColor=00e58a" height="26" alt="Location" />
-  <img src="https://img.shields.io/badge/-Open%20to%20work-00e58a?style=flat-square" height="26" alt="Open to work" />
+  <img src="https://img.shields.io/badge/-Open%20to%20work-00e58a?style=flat-square&logoColor=06120c" height="26" alt="Open to work" />
 </p>
 
 <img src="assets/sec-01.svg" width="100%" alt="Whoami" />
@@ -21,20 +21,19 @@ Ranked **#1 globally on TryHackMe** (2022) and currently **top 83 worldwide in t
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="46%" valign="top">
 
-**Based in** — Cairo, Egypt
-**Focus** — Web · API · Cloud · Mobile
-**Certified** — eWPTX · eMAPT · CAP · CNSP
-**Method** — OWASP Top 10 · MITRE ATT&CK
+**Based in** — Cairo, Egypt<br/>
+**Focus** — Web · API · Cloud · Mobile<br/>
+**Certified** — eWPTX · eMAPT · CAP · CNSP<br/>
+**Method** — OWASP Top 10 · MITRE ATT&amp;CK
 
   </td>
-    <td width="50%" valign="top">
+    <td width="54%" valign="top">
 
-> **Currently**
-> Bug bounty hunting across enterprise programs.
-> 5+ high-severity findings responsibly disclosed —
-> including a critical chain on **TikTok**.
+**Currently**<br/>
+Bug bounty hunting across enterprise programs. 5+ high-severity findings responsibly disclosed — including a critical chain on **TikTok**.<br/><br/>
+Also building Python and Bash tooling to make recon and reporting faster than doing it by hand.
 
   </td>
   </tr>
@@ -77,9 +76,9 @@ Ranked **#1 globally on TryHackMe** (2022) and currently **top 83 worldwide in t
 
 <table>
   <tr>
-    <th align="left" width="34%">Project</th>
-    <th align="left" width="48%">What it does</th>
-    <th align="left" width="18%">Stack</th>
+    <th align="left" style="width:32%">Project</th>
+    <th align="left" style="width:52%">What it does</th>
+    <th align="left" style="width:16%">Stack</th>
   </tr>
   <tr>
     <td><a href="https://github.com/Yousif-e1/Malware-Analysis-and-Prevention-Strategy"><b>Malware Analysis &amp; Prevention</b></a></td>
@@ -117,9 +116,9 @@ Ranked **#1 globally on TryHackMe** (2022) and currently **top 83 worldwide in t
 
 <table>
   <tr>
-    <th align="left" width="16%">Certification</th>
-    <th align="left" width="46%">Full name</th>
-    <th align="left" width="38%">Issuer</th>
+    <th align="left" style="width:14%">Cert</th>
+    <th align="left" style="width:54%">Full name</th>
+    <th align="left" style="width:32%">Issuer</th>
   </tr>
   <tr>
     <td><b>eWPTX</b></td>
@@ -147,16 +146,27 @@ Ranked **#1 globally on TryHackMe** (2022) and currently **top 83 worldwide in t
 
 <img src="assets/sec-05.svg" width="100%" alt="Signal" />
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Yousif-e1&show_icons=true&hide_border=true&bg_color=05080f&title_color=00e58a&icon_color=00e58a&text_color=8ea1bd&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yousif-e1&layout=compact&hide_border=true&bg_color=05080f&title_color=00e58a&text_color=8ea1bd" alt="Top languages" />
-</p>
+<table>
+  <tr>
+    <th align="left" style="width:50%">Reach me</th>
+    <th align="left" style="width:50%">Open to</th>
+  </tr>
+  <tr>
+    <td valign="top">
 
-<p align="center">
-  <a href="mailto:yousif.98449@cs.mti.edu.eg"><b>yousif.98449@cs.mti.edu.eg</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/yousif-elalfy">linkedin.com/in/yousif-elalfy</a>
-</p>
+[![Email](https://img.shields.io/badge/yousif.98449@cs.mti.edu.eg-0d1a2b?style=flat-square&logo=gmail&logoColor=00e58a)](mailto:yousif.98449@cs.mti.edu.eg)<br/>
+[![LinkedIn](https://img.shields.io/badge/in%2Fyousif--elalfy-0d1a2b?style=flat-square&logo=linkedin&logoColor=38e1ff)](https://linkedin.com/in/yousif-elalfy)
+
+  </td>
+    <td valign="top">
+
+Full-time red team / offensive security roles<br/>
+Contract penetration testing engagements<br/>
+Security research collaborations
+
+  </td>
+  </tr>
+</table>
 
 <div align="center">
   <sub>Every finding above was reported privately to the vendor before publication.<br/>Testing is only ever performed against systems I am authorised to assess.</sub>
