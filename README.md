@@ -116,28 +116,33 @@ Also building Python and Bash tooling to make recon and reporting faster than do
 
 <table width="100%">
   <tr>
-    <th align="left" style="width:14%">Cert</th>
-    <th align="left" style="width:54%">Full name</th>
-    <th align="left" style="width:32%">Issuer</th>
+    <th align="left">Cert</th>
+    <th align="left">Full name</th>
+    <th align="left">Focus</th>
+    <th align="left">Issuer</th>
   </tr>
   <tr>
     <td><b>eWPTX</b></td>
     <td>Web Application Penetration Tester eXtreme</td>
+    <td>Advanced web exploitation</td>
     <td>INE Security</td>
   </tr>
   <tr>
     <td><b>eMAPT</b></td>
     <td>Mobile Application Penetration Tester</td>
+    <td>iOS &amp; Android security</td>
     <td>INE Security</td>
   </tr>
   <tr>
     <td><b>CAP</b></td>
     <td>Certified AppSec Practitioner</td>
+    <td>Application security</td>
     <td>SecOps Group</td>
   </tr>
   <tr>
     <td><b>CNSP</b></td>
     <td>Certified Network Security Practitioner</td>
+    <td>Network security</td>
     <td>SecOps Group</td>
   </tr>
 </table>
