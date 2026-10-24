@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 176" width="900" height="176" role="img" aria-label="Engagement lifecycle: recon, enumeration, exploitation, post-exploitation, reporting">
+  <defs>
+    <linearGradient id="kbg" x1="0" y1="0" x2="0" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080e18"/>
+      <stop offset="1" stop-color="#070d16"/>
+    </linearGradient>
+    <radialGradient id="kglow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 96) scale(420 120)">
+      <stop offset="0" stop-color="#00e58a" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#00e58a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rail" x1="90" y1="0" x2="810" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b3350"/>
+      <stop offset="1" stop-color="#12253c"/>
+    </linearGradient>
+    <clipPath id="kclip"><rect x="0.75" y="0.75" width="898.5" height="174.5" rx="10"/></clipPath>
+    <style>
+      .m { font-family: 'Cascadia Mono','Consolas','DejaVu Sans Mono','Liberation Mono',monospace; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#kclip)">
+    <rect x="0.75" y="0.75" width="898.5" height="174.5" rx="10" fill="url(#kbg)"/>
+    <rect x="0.75" y="0.75" width="898.5" height="174.5" fill="url(#kglow)"/>
+
+    <text class="m" x="26" y="32" font-size="12" letter-spacing="3" fill="#8ea1bd" font-weight="600">ENGAGEMENT LIFECYCLE</text>
+    <text class="m" x="874" y="32" text-anchor="end" font-size="11" letter-spacing="2" fill="#33507a">// authorised scope only</text>
+    <line x1="26" y1="46" x2="874" y2="46" stroke="#132139" stroke-width="1"/>
+    <line x1="90" y1="96" x2="810" y2="96" stroke="url(#rail)" stroke-width="2" stroke-linecap="round"/>    <line x1="90" y1="96" x2="90" y2="96" stroke="#00e58a" stroke-width="2" stroke-linecap="round" opacity="0.55">
+      <animate attributeName="x2" values="90;90;810;810" keyTimes="0;0.03;0.63;1" dur="6.0s" repeatCount="indefinite"/>
+    </line>
+    <!-- RECON -->
+    <circle cx="90.0" cy="96" r="30" fill="#00e58a" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.10;0;0" keyTimes="0;0.0050;0.0300;0.1300;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90.0" cy="96" r="21" fill="none" stroke="#1e3350" stroke-width="1.4"/>
+    <circle cx="90.0" cy="96" r="21" fill="none" stroke="#00e58a" stroke-width="1.8" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.1;0.95;0.1;0.1" keyTimes="0;0.0050;0.0300;0.1300;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90.0" cy="96" r="5.5" fill="#1b3350">
+      <animate attributeName="fill" values="#1b3350;#1b3350;#00e58a;#1b3350;#1b3350" keyTimes="0;0.0050;0.0300;0.1300;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <text class="m" x="90.0" y="142" text-anchor="middle" font-size="10.5" letter-spacing="1.6" fill="#8ea1bd" font-weight="600">RECON</text>
+    <text class="m" x="90.0" y="158" text-anchor="middle" font-size="9" letter-spacing="0.8" fill="#41556f">attack surface</text>
+    <!-- ENUMERATION -->
+    <circle cx="270.0" cy="96" r="30" fill="#00e58a" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.10;0;0" keyTimes="0;0.1300;0.1800;0.2800;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="270.0" cy="96" r="21" fill="none" stroke="#1e3350" stroke-width="1.4"/>
+    <circle cx="270.0" cy="96" r="21" fill="none" stroke="#00e58a" stroke-width="1.8" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.1;0.95;0.1;0.1" keyTimes="0;0.1300;0.1800;0.2800;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="270.0" cy="96" r="5.5" fill="#1b3350">
+      <animate attributeName="fill" values="#1b3350;#1b3350;#00e58a;#1b3350;#1b3350" keyTimes="0;0.1300;0.1800;0.2800;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <text class="m" x="270.0" y="142" text-anchor="middle" font-size="10.5" letter-spacing="1.6" fill="#8ea1bd" font-weight="600">ENUMERATION</text>
+    <text class="m" x="270.0" y="158" text-anchor="middle" font-size="9" letter-spacing="0.8" fill="#41556f">inputs &amp; endpoints</text>
+    <!-- EXPLOITATION -->
+    <circle cx="450.0" cy="96" r="30" fill="#00e58a" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.10;0;0" keyTimes="0;0.2800;0.3300;0.4300;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450.0" cy="96" r="21" fill="none" stroke="#1e3350" stroke-width="1.4"/>
+    <circle cx="450.0" cy="96" r="21" fill="none" stroke="#00e58a" stroke-width="1.8" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.1;0.95;0.1;0.1" keyTimes="0;0.2800;0.3300;0.4300;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450.0" cy="96" r="5.5" fill="#1b3350">
+      <animate attributeName="fill" values="#1b3350;#1b3350;#00e58a;#1b3350;#1b3350" keyTimes="0;0.2800;0.3300;0.4300;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <text class="m" x="450.0" y="142" text-anchor="middle" font-size="10.5" letter-spacing="1.6" fill="#8ea1bd" font-weight="600">EXPLOITATION</text>
+    <text class="m" x="450.0" y="158" text-anchor="middle" font-size="9" letter-spacing="0.8" fill="#41556f">proof, not theory</text>
+    <!-- POST-EXPLOIT -->
+    <circle cx="630.0" cy="96" r="30" fill="#00e58a" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.10;0;0" keyTimes="0;0.4300;0.4800;0.5800;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="630.0" cy="96" r="21" fill="none" stroke="#1e3350" stroke-width="1.4"/>
+    <circle cx="630.0" cy="96" r="21" fill="none" stroke="#00e58a" stroke-width="1.8" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.1;0.95;0.1;0.1" keyTimes="0;0.4300;0.4800;0.5800;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="630.0" cy="96" r="5.5" fill="#1b3350">
+      <animate attributeName="fill" values="#1b3350;#1b3350;#00e58a;#1b3350;#1b3350" keyTimes="0;0.4300;0.4800;0.5800;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <text class="m" x="630.0" y="142" text-anchor="middle" font-size="10.5" letter-spacing="1.6" fill="#8ea1bd" font-weight="600">POST-EXPLOIT</text>
+    <text class="m" x="630.0" y="158" text-anchor="middle" font-size="9" letter-spacing="0.8" fill="#41556f">real blast radius</text>
+    <!-- REPORTING -->
+    <circle cx="810.0" cy="96" r="30" fill="#00e58a" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.10;0;0" keyTimes="0;0.5800;0.6300;0.7300;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="810.0" cy="96" r="21" fill="none" stroke="#1e3350" stroke-width="1.4"/>
+    <circle cx="810.0" cy="96" r="21" fill="none" stroke="#00e58a" stroke-width="1.8" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.1;0.95;0.1;0.1" keyTimes="0;0.5800;0.6300;0.7300;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="810.0" cy="96" r="5.5" fill="#1b3350">
+      <animate attributeName="fill" values="#1b3350;#1b3350;#00e58a;#1b3350;#1b3350" keyTimes="0;0.5800;0.6300;0.7300;1" dur="6.0s" repeatCount="indefinite"/>
+    </circle>
+    <text class="m" x="810.0" y="142" text-anchor="middle" font-size="10.5" letter-spacing="1.6" fill="#8ea1bd" font-weight="600">REPORTING</text>
+    <text class="m" x="810.0" y="158" text-anchor="middle" font-size="9" letter-spacing="0.8" fill="#41556f">fixable output</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.60;0.66;1" dur="6.0s" repeatCount="indefinite"/>
+      <circle r="9" fill="#00e58a" opacity="0.22">
+        <animate attributeName="cx" values="90;90;810;810" keyTimes="0;0.03;0.63;1" dur="6.0s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="96" dur="6.0s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3.4" fill="#00e58a">
+        <animate attributeName="cx" values="90;90;810;810" keyTimes="0;0.03;0.63;1" dur="6.0s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="96" dur="6.0s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="898.5" height="174.5" rx="10" fill="none" stroke="#16253d" stroke-width="1.5"/>
+</svg>
