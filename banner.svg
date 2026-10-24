@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Yousif Elalfy — Offensive Security Researcher">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04070d"/>
+      <stop offset="0.45" stop-color="#0a1526"/>
+      <stop offset="1" stop-color="#04070d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 140) scale(330)">
+      <stop offset="0" stop-color="#00e58a" stop-opacity="0.20"/>
+      <stop offset="0.5" stop-color="#00e58a" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#00e58a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sweep" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 140) scale(96)">
+      <stop offset="0" stop-color="#00e58a" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#00e58a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#13223c" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="rule" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00e58a"/>
+      <stop offset="1" stop-color="#00e58a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topline" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00e58a" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#00e58a" stop-opacity="0.85"/>
+      <stop offset="0.62" stop-color="#38e1ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#38e1ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00e58a" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00e58a" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#00e58a" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="340" rx="16"/></clipPath>
+    <style>
+      .mono { font-family: 'Cascadia Mono','Consolas','DejaVu Sans Mono','Liberation Mono',monospace; }
+      .sans { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; }
+      @keyframes scanMove { 0% { transform: translateY(-150px); } 100% { transform: translateY(360px); } }
+      @keyframes blink    { 0%,47% { opacity: 1; } 48%,100% { opacity: 0; } }
+      @keyframes pulse    { 0%,100% { opacity: 1; } 50% { opacity: 0.28; } }
+      .scan  { animation: scanMove 7s linear infinite; }
+      .cur   { animation: blink 1.05s step-end infinite; }
+      .live  { animation: pulse 2.2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)" opacity="0.35"/>
+    <rect width="1200" height="340" fill="url(#glow)"/>
+
+    <!-- animated scan line -->
+    <rect class="scan" x="0" y="0" width="1200" height="130" fill="url(#scan)"/>
+
+    <!-- top accent -->
+    <rect x="0" y="0" width="1200" height="1.6" fill="url(#topline)"/>
+
+    <!-- corner brackets -->
+    <g stroke="#00e58a" stroke-width="1.6" fill="none" opacity="0.55">
+      <path d="M22 46V22h24"/>
+      <path d="M1178 46V22h-24"/>
+      <path d="M22 294v24h24"/>
+      <path d="M1178 294v24h-24"/>
+    </g>
+
+    <!-- ===== radar / recon reticle ===== -->
+    <g opacity="0.9">
+      <circle cx="1030" cy="140" r="96" fill="none" stroke="#14273f" stroke-width="1.4"/>
+      <circle cx="1030" cy="140" r="66" fill="none" stroke="#1b3350" stroke-width="1"/>
+      <circle cx="1030" cy="140" r="36" fill="none" stroke="#00e58a" stroke-width="1" opacity="0.28"/>
+
+      <!-- rotating sweep -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 1030 140" to="360 1030 140" dur="9s" repeatCount="indefinite"/>
+        <path d="M1030 140 L1030 44 A96 96 0 0 1 1098 72 Z" fill="url(#sweep)"/>
+        <line x1="1030" y1="140" x2="1030" y2="44" stroke="#00e58a" stroke-width="1.6" opacity="0.75"/>
+      </g>
+
+      <!-- tick marks -->
+      <g stroke="#1b3350" stroke-width="1.4">
+        <line x1="1030" y1="38" x2="1030" y2="50"/>
+        <line x1="1030" y1="230" x2="1030" y2="242"/>
+        <line x1="928" y1="140" x2="940" y2="140"/>
+        <line x1="1120" y1="140" x2="1132" y2="140"/>
+      </g>
+
+      <circle cx="1030" cy="140" r="3.4" fill="#00e58a"/>
+      <circle class="live" cx="1030" cy="140" r="9" fill="none" stroke="#00e58a" stroke-width="1" opacity="0.5"/>
+    </g>
+
+    <!-- ===== identity block ===== -->
+    <g class="mono" font-size="12.5" letter-spacing="2.2">
+      <text x="58" y="62" fill="#00e58a">root@yousif-e1</text>
+      <text x="205" y="62" fill="#44597a">:~$</text>
+      <text x="250" y="62" fill="#6f819c">./identity --verbose</text>
+    </g>
+
+    <text class="sans" x="56" y="146" font-size="64" font-weight="800" letter-spacing="0.5" fill="#f2f6fc">YOUSIF ELALFY</text>
+
+    <rect x="58" y="166" width="400" height="2" fill="url(#rule)"/>
+
+    <g class="mono" font-size="15" letter-spacing="5.2">
+      <text x="58" y="200" fill="#00e58a" font-weight="600">OFFENSIVE SECURITY</text>
+      <text x="330" y="200" fill="#6f819c">RESEARCHER</text>
+    </g>
+
+    <!-- ===== signal strip ===== -->
+    <g class="mono">
+      <g stroke="#1b2740" stroke-width="1">
+        <line x1="328" y1="232" x2="328" y2="300"/>
+        <line x1="600" y1="232" x2="600" y2="300"/>
+        <line x1="872" y1="232" x2="872" y2="300"/>
+      </g>
+
+      <text x="58" y="256" font-size="29" font-weight="700" fill="#00e58a" letter-spacing="0.5">#1</text>
+      <text x="58" y="278" font-size="10" letter-spacing="2.1" fill="#8ea1bd">GLOBAL · TRYHACKME</text>
+      <text x="58" y="296" font-size="9" letter-spacing="1.6" fill="#5d7291">RANKED 2022</text>
+
+      <text x="354" y="256" font-size="29" font-weight="700" fill="#38e1ff" letter-spacing="0.5">TOP 83</text>
+      <text x="354" y="278" font-size="10" letter-spacing="2.1" fill="#8ea1bd">PORTSWIGGER HOF</text>
+      <text x="354" y="296" font-size="9" letter-spacing="1.6" fill="#5d7291">GLOBAL · 2026</text>
+
+      <text x="626" y="256" font-size="29" font-weight="700" fill="#ff2d55" letter-spacing="0.5">4×</text>
+      <text x="626" y="278" font-size="10" letter-spacing="2.1" fill="#8ea1bd">INDUSTRY CERTS</text>
+      <text x="626" y="296" font-size="9" letter-spacing="1.6" fill="#5d7291">eWPTX · eMAPT · CAP · CNSP</text>
+
+      <text x="898" y="256" font-size="29" font-weight="700" fill="#00e58a" letter-spacing="0.5">5+</text>
+      <text x="898" y="278" font-size="10" letter-spacing="2.1" fill="#8ea1bd">DISCLOSURES</text>
+      <text x="898" y="296" font-size="9" letter-spacing="1.6" fill="#5d7291">RESPONSIBLE · HIGH SEV</text>
+    </g>
+
+    <rect x="0.8" y="0.8" width="1198.4" height="338.4" rx="16" fill="none" stroke="#16253d" stroke-width="1.6"/>
+  </g>
+</svg>

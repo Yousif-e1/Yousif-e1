@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 50" width="900" height="50" role="img" aria-label="Signal">
+  <defs>
+    <linearGradient id="r05" x1="140" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e3350"/>
+      <stop offset="1" stop-color="#1e3350" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .m { font-family: 'Cascadia Mono','Consolas','DejaVu Sans Mono','Liberation Mono',monospace; }
+    </style>
+  </defs>
+  <rect x="0" y="17" width="3" height="17" rx="1.5" fill="#00e58a"/>
+  <text class="m" x="18" y="32" font-size="12" letter-spacing="2.5" fill="#00e58a" font-weight="600">05</text>
+  <text class="m" x="48" y="32" font-size="13" letter-spacing="3.2" fill="#dbe4f0" font-weight="600">SIGNAL</text>
+  <line x1="140" y1="26" x2="900" y2="26" stroke="url(#r05)" stroke-width="1.2"/>
+</svg>
