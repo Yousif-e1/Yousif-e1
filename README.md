@@ -19,7 +19,7 @@ I break systems before someone with worse intentions does. Web apps, APIs, cloud
 
 Ranked **#1 globally on TryHackMe** (2022) and currently **top 83 worldwide in the PortSwigger Hall of Fame**. Every engagement is mapped to **NIST SP 800-53** and **ISO 27001**, so findings arrive in the language your compliance team already speaks.
 
-<table>
+<table width="100%">
   <tr>
     <td width="46%" valign="top">
 
@@ -74,7 +74,7 @@ Also building Python and Bash tooling to make recon and reporting faster than do
 
 <img src="assets/sec-03.svg" width="100%" alt="Operations" />
 
-<table>
+<table width="100%">
   <tr>
     <th align="left" style="width:32%">Project</th>
     <th align="left" style="width:52%">What it does</th>
@@ -114,7 +114,7 @@ Also building Python and Bash tooling to make recon and reporting faster than do
 
 <img src="assets/sec-04.svg" width="100%" alt="Credentials" />
 
-<table>
+<table width="100%">
   <tr>
     <th align="left" style="width:14%">Cert</th>
     <th align="left" style="width:54%">Full name</th>
@@ -146,7 +146,7 @@ Also building Python and Bash tooling to make recon and reporting faster than do
 
 <img src="assets/sec-05.svg" width="100%" alt="Signal" />
 
-<table>
+<table width="100%">
   <tr>
     <th align="left" style="width:50%">Reach me</th>
     <th align="left" style="width:50%">Open to</th>
