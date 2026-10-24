@@ -5,14 +5,35 @@
       <stop offset="0.55" stop-color="#16253d" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#16253d" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="comet02" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e58a" stop-opacity="0"/>
+      <stop offset="0.62" stop-color="#00e58a" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#00e58a" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip02"><rect x="0.75" y="0.75" width="898.5" height="54.5" rx="10"/></clipPath>
     <style>
       .m { font-family: 'Cascadia Mono','Consolas','DejaVu Sans Mono','Liberation Mono',monospace; }
     </style>
   </defs>
-  <rect x="0.75" y="0.75" width="898.5" height="54.5" rx="10" fill="#070d16" stroke="#16253d" stroke-width="1.5"/>
-  <rect x="22" y="18" width="3.5" height="20" rx="1.75" fill="#00e58a"/>
-  <text class="m" x="40" y="34" font-size="13" letter-spacing="2.5" fill="#00e58a" font-weight="700">02</text>
-  <text class="m" x="72" y="34" font-size="15" letter-spacing="3.4" fill="#ffffff" font-weight="700">ARSENAL</text>
-  <line x1="188" y1="28" x2="800" y2="28" stroke="url(#r02)" stroke-width="1.3"/>
-  <text class="m" x="878" y="34" text-anchor="end" font-size="11" letter-spacing="2" fill="#33507a">// tooling</text>
+
+  <g clip-path="url(#clip02)">
+    <rect x="0.75" y="0.75" width="898.5" height="54.5" rx="10" fill="#070d16"/>
+
+    <!-- travelling light streak, confined to the rule so it never crosses the label -->
+    <rect x="188" y="27" width="90" height="1.8" fill="url(#comet02)">
+      <animate attributeName="x" values="188;900" dur="7s" begin="0.9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- pulsing tick -->
+    <rect x="22" y="18" width="3.5" height="20" rx="1.75" fill="#00e58a">
+      <animate attributeName="opacity" values="1;0.35;1" dur="3.4s" begin="0.9s" repeatCount="indefinite"/>
+    </rect>
+
+    <text class="m" x="40" y="34" font-size="13" letter-spacing="2.5" fill="#00e58a" font-weight="700">02</text>
+    <text class="m" x="72" y="34" font-size="15" letter-spacing="3.4" fill="#ffffff" font-weight="700">ARSENAL</text>
+    <line x1="188" y1="28" x2="800" y2="28" stroke="url(#r02)" stroke-width="1.3"/>
+    <text class="m" x="878" y="34" text-anchor="end" font-size="11" letter-spacing="2" fill="#33507a">// tooling</text>
+  </g>
+
+  <rect x="0.75" y="0.75" width="898.5" height="54.5" rx="10" fill="none" stroke="#16253d" stroke-width="1.5"/>
 </svg>
