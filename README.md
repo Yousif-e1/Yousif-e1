@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/terminal.svg" alt="Terminal session" width="72%" />
+  <img src="assets/terminal.svg" alt="Terminal session" width="64%" />
 </div>
 
 <p align="center">
@@ -15,27 +15,67 @@
 
 <img src="assets/sec-01.svg" width="100%" alt="Whoami" />
 
-I break systems before someone with worse intentions does. Web apps, APIs, cloud estates and mobile — recon through exploitation, then a report a developer can actually ship a fix from.
+**I break systems before someone with worse intentions does.**
 
-Ranked **#1 globally on TryHackMe** (2022) and currently **top 83 worldwide in the PortSwigger Hall of Fame**. Every engagement is mapped to **NIST SP 800-53** and **ISO 27001**, so findings arrive in the language your compliance team already speaks.
+Web apps, APIs, cloud estates and mobile — recon through exploitation, then a report a developer can actually ship a fix from. Every engagement is mapped to **NIST SP 800-53** and **ISO 27001**, so findings arrive in the language your compliance team already speaks.
+
+Ranked **#1 globally on TryHackMe** (2022) and **top 83 worldwide in the PortSwigger Hall of Fame**. 5+ high-severity findings responsibly disclosed, including a critical chain on **TikTok**.
 
 <table width="100%">
   <tr>
-    <td width="46%" valign="top">
+    <td width="50%" valign="top">
+      <p><b>Focus</b></p>
+      Web · API · Cloud · Mobile<br/>
+      OWASP Top 10 · MITRE ATT&amp;CK<br/>
+      NIST SP 800-53 · ISO 27001
+    </td>
+    <td width="50%" valign="top">
+      <p><b>Now</b></p>
+      Bug bounty hunting across enterprise programs.<br/>
+      Building Python and Bash tooling for recon and reporting.<br/>
+      Open to red team and contract pentest work.
+    </td>
+  </tr>
+</table>
 
-**Based in** — Cairo, Egypt<br/>
-**Focus** — Web · API · Cloud · Mobile<br/>
-**Certified** — eWPTX · eMAPT · CAP · CNSP<br/>
-**Method** — OWASP Top 10 · MITRE ATT&amp;CK
+<img src="assets/sec-04.svg" width="100%" alt="Selected work" />
 
-  </td>
-    <td width="54%" valign="top">
-
-**Currently**<br/>
-Bug bounty hunting across enterprise programs. 5+ high-severity findings responsibly disclosed — including a critical chain on **TikTok**.<br/><br/>
-Also building Python and Bash tooling to make recon and reporting faster than doing it by hand.
-
-  </td>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <p><b><a href="https://github.com/Yousif-e1/Malware-Analysis-and-Prevention-Strategy">Malware Analysis &amp; Prevention</a></b></p>
+      End-to-end malware behaviour lab with real-time SIEM detection and a hardening playbook.<br/>
+      <sub>Wazuh · Splunk</sub>
+    </td>
+    <td width="50%" valign="top">
+      <p><b><a href="https://github.com/Yousif-e1/Network-Packet-Analyzer">Network Packet Analyzer</a></b></p>
+      Sniffer that surfaces live traffic, protocols and payloads for traffic triage.<br/>
+      <sub>Python</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><b><a href="https://github.com/Yousif-e1/Simple-Keylogger">Simple Keylogger</a></b></p>
+      Keystroke-capture PoC used to demonstrate endpoint threat exposure.<br/>
+      <sub>Python</sub>
+    </td>
+    <td width="50%" valign="top">
+      <p><b><a href="https://github.com/Yousif-e1/Password-Complexity-Checker">Password Complexity Checker</a></b></p>
+      Scores password strength against real-world guessing patterns.<br/>
+      <sub>Python</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><b><a href="https://github.com/Yousif-e1/Pixel-Manipulation-for-Image-Encryption">Image Encryption</a></b></p>
+      Encrypts and decrypts images through pixel-level manipulation.<br/>
+      <sub>Python</sub>
+    </td>
+    <td width="50%" valign="top">
+      <p><b><a href="https://github.com/Yousif-e1/CipherText_Program">CipherText</a></b></p>
+      Text encryption and decryption across classical ciphers by key and mode.<br/>
+      <sub>Python</sub>
+    </td>
   </tr>
 </table>
 
@@ -76,128 +116,66 @@ Also building Python and Bash tooling to make recon and reporting faster than do
 
 <img src="assets/method.svg" width="100%" alt="Engagement lifecycle" />
 
-Every engagement runs the same five stages. No stage is skipped because the previous one looked convincing — most real findings hide in enumeration, not in the exploit.
-
-<img src="assets/sec-04.svg" width="100%" alt="Operations" />
-
-<table width="100%">
-  <tr>
-    <th align="left" style="width:32%">Project</th>
-    <th align="left" style="width:52%">What it does</th>
-    <th align="left" style="width:16%">Stack</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Yousif-e1/Malware-Analysis-and-Prevention-Strategy"><b>Malware Analysis &amp; Prevention</b></a></td>
-    <td>End-to-end malware behaviour lab with real-time SIEM detection and a hardening playbook</td>
-    <td>Wazuh · Splunk</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Yousif-e1/Network-Packet-Analyzer"><b>Network Packet Analyzer</b></a></td>
-    <td>Sniffer that surfaces live traffic, protocols and payloads for traffic triage</td>
-    <td>Python</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Yousif-e1/Simple-Keylogger"><b>Simple Keylogger</b></a></td>
-    <td>Keystroke-capture PoC used to demonstrate endpoint threat exposure</td>
-    <td>Python</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Yousif-e1/Password-Complexity-Checker"><b>Password Complexity Checker</b></a></td>
-    <td>Scores password strength against real-world guessing patterns</td>
-    <td>Python</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Yousif-e1/Pixel-Manipulation-for-Image-Encryption"><b>Image Encryption</b></a></td>
-    <td>Encrypts and decrypts images through pixel-level manipulation</td>
-    <td>Python</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Yousif-e1/CipherText_Program"><b>CipherText</b></a></td>
-    <td>Text encryption and decryption across classical ciphers by key and mode</td>
-    <td>Python</td>
-  </tr>
-</table>
+Recon → enumeration → exploitation → post-exploit → reporting. No stage skipped — most real findings hide in enumeration, not in the exploit.
 
 <img src="assets/sec-05.svg" width="100%" alt="Credentials" />
 
 <table width="100%">
   <tr>
-    <th align="left">Cert</th>
-    <th align="left">Full name</th>
-    <th align="left">Focus</th>
-    <th align="left">Issuer</th>
-  </tr>
-  <tr>
-    <td><b>eWPTX</b></td>
-    <td>Web Application Penetration Tester eXtreme</td>
-    <td>Advanced web exploitation</td>
-    <td>INE Security</td>
-  </tr>
-  <tr>
-    <td><b>eMAPT</b></td>
-    <td>Mobile Application Penetration Tester</td>
-    <td>iOS &amp; Android security</td>
-    <td>INE Security</td>
-  </tr>
-  <tr>
-    <td><b>CAP</b></td>
-    <td>Certified AppSec Practitioner</td>
-    <td>Application security</td>
-    <td>SecOps Group</td>
-  </tr>
-  <tr>
-    <td><b>CNSP</b></td>
-    <td>Certified Network Security Practitioner</td>
-    <td>Network security</td>
-    <td>SecOps Group</td>
+    <td width="25%" valign="top" align="center">
+      <p><b>eWPTX</b></p>
+      <sub>Web App Pentester eXtreme</sub><br/>
+      <sub>INE Security</sub>
+    </td>
+    <td width="25%" valign="top" align="center">
+      <p><b>eMAPT</b></p>
+      <sub>Mobile App Pentester</sub><br/>
+      <sub>INE Security</sub>
+    </td>
+    <td width="25%" valign="top" align="center">
+      <p><b>CAP</b></p>
+      <sub>Certified AppSec Practitioner</sub><br/>
+      <sub>SecOps Group</sub>
+    </td>
+    <td width="25%" valign="top" align="center">
+      <p><b>CNSP</b></p>
+      <sub>Certified Network Security Practitioner</sub><br/>
+      <sub>SecOps Group</sub>
+    </td>
   </tr>
 </table>
 
-<sub>**DEPI** professional program (2024–2025) — curriculum aligned with Security+, CEH v12, Network+, CCNA Cyber Ops, Linux+ and eWPT.</sub>
+<sub>**DEPI** professional program (2024–2025) — Security+, CEH v12, Network+, CCNA Cyber Ops, Linux+ and eWPT.</sub>
 
-<h3>Experience</h3>
+<details>
+<summary><b>Experience &amp; education</b></summary>
 
-<table width="100%">
-  <tr>
-    <th align="left">Role</th>
-    <th align="left">Organisation</th>
-    <th align="left">When</th>
-  </tr>
-  <tr>
-    <td><b>Bug Bounty Researcher</b></td>
-    <td>Independent</td>
-    <td>Jul 2026 – Present</td>
-  </tr>
-  <tr>
-    <td><b>Penetration Tester &amp; Vulnerability Analyst</b></td>
-    <td>Refeed (DEPI, remote)</td>
-    <td>Sep 2025 – May 2026</td>
-  </tr>
-</table>
+<br/>
 
-<p><b>Education</b> — BSc Computer Science &amp; AI, MTI · 2021 – 2025</p>
+| Role | Organisation | When |
+|:--|:--|:--|
+| **Bug Bounty Researcher** | Independent | Jul 2026 – Present |
+| **Penetration Tester &amp; Vulnerability Analyst** | Refeed (DEPI, remote) | Sep 2025 – May 2026 |
+
+**Education** — BSc Computer Science &amp; AI, MTI · 2021 – 2025
+
+</details>
 
 <img src="assets/sec-06.svg" width="100%" alt="Signal" />
 
 <table width="100%">
   <tr>
-    <th align="left" style="width:50%">Reach me</th>
-    <th align="left" style="width:50%">Open to</th>
-  </tr>
-  <tr>
-    <td valign="top">
-
-[![Email](https://img.shields.io/badge/yousif.98449@cs.mti.edu.eg-0d1a2b?style=flat-square&logo=gmail&logoColor=00e58a)](mailto:yousif.98449@cs.mti.edu.eg)<br/>
-[![LinkedIn](https://img.shields.io/badge/in%2Fyousif--elalfy-0d1a2b?style=flat-square&logo=linkedin&logoColor=38e1ff)](https://linkedin.com/in/yousif-elalfy)
-
-  </td>
-    <td valign="top">
-
-Full-time red team / offensive security roles<br/>
-Contract penetration testing engagements<br/>
-Security research collaborations
-
-  </td>
+    <td width="50%" valign="top">
+      <p><b>Let's work together</b></p>
+      Full-time red team / offensive security roles<br/>
+      Contract penetration testing engagements<br/>
+      Security research collaborations
+    </td>
+    <td width="50%" valign="top">
+      <p><b>Reach me</b></p>
+      <a href="mailto:yousif.98449@cs.mti.edu.eg"><img src="https://img.shields.io/badge/yousif.98449@cs.mti.edu.eg-0d1a2b?style=flat-square&logo=gmail&logoColor=00e58a" alt="Email" /></a><br/>
+      <a href="https://linkedin.com/in/yousif-elalfy"><img src="https://img.shields.io/badge/in%2Fyousif--elalfy-0d1a2b?style=flat-square&logo=linkedin&logoColor=38e1ff" alt="LinkedIn" /></a>
+    </td>
   </tr>
 </table>
 
