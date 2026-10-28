@@ -33,7 +33,7 @@ Ranked **#1 globally on TryHackMe** (2022) and currently **top 83 worldwide in t
 
 **Currently**<br/>
 Bug bounty hunting across enterprise programs. 5+ high-severity findings responsibly disclosed — including a critical chain on **TikTok**.<br/><br/>
-Also building Python and Bash tooling to make recon and reporting faster than doing it by hand.
+Also building Python and Bash tooling — including an autonomous Arab cyberattack digest (featured below) — to make recon and reporting faster than doing it by hand.
 
   </td>
   </tr>
@@ -79,6 +79,29 @@ Also building Python and Bash tooling to make recon and reporting faster than do
 Every engagement runs the same five stages. No stage is skipped because the previous one looked convincing — most real findings hide in enumeration, not in the exploit.
 
 <img src="assets/sec-04.svg" width="100%" alt="Operations" />
+
+<p><b>Featured build</b></p>
+
+<table width="100%">
+  <tr>
+    <td width="46%" valign="top">
+      <a href="https://www.facebook.com/profile.php?id=61595632418613">
+        <img src="assets/mena-watch.svg" width="100%" alt="MENA WATCH — Surviving the Digital" />
+      </a>
+    </td>
+    <td width="54%" valign="top">
+      <h3>Surviving the Digital — Arab cyberattack digest</h3>
+      <p>An autonomous, source-verified cyberattack digest for the Arab world. Every 4 hours it scans Arabic and English sources, filters for confirmed attacks on Arab targets with Egypt first, writes Egyptian Arabic Facebook captions, generates original MENA WATCH cards, and publishes to a Facebook page.</p>
+      <p><b>Cadence</b> — 6 runs/day · max 5 posts/run<br/>
+      <b>Guardrails</b> — 4-hour window · source checks<br/>
+      <b>Dedupe</b> — separate state, cross-track checks<br/>
+      <b>Stack</b> — Python · Playwright · Pillow · Bash · WSL · Task Scheduler</p>
+      <p><a href="https://www.facebook.com/profile.php?id=61595632418613"><b>View the page →</b></a></p>
+    </td>
+  </tr>
+</table>
+
+<p><b>Selected projects</b></p>
 
 <table width="100%">
   <tr>
@@ -154,6 +177,28 @@ Every engagement runs the same five stages. No stage is skipped because the prev
 </table>
 
 <sub>**DEPI** professional program (2024–2025) — curriculum aligned with Security+, CEH v12, Network+, CCNA Cyber Ops, Linux+ and eWPT.</sub>
+
+<h3>Experience</h3>
+
+<table width="100%">
+  <tr>
+    <th align="left">Role</th>
+    <th align="left">Organisation</th>
+    <th align="left">When</th>
+  </tr>
+  <tr>
+    <td><b>Bug Bounty Researcher</b></td>
+    <td>Independent</td>
+    <td>Jul 2026 – Present</td>
+  </tr>
+  <tr>
+    <td><b>Penetration Tester &amp; Vulnerability Analyst</b></td>
+    <td>Refeed (DEPI, remote)</td>
+    <td>Sep 2025 – May 2026</td>
+  </tr>
+</table>
+
+<p><b>Education</b> — BSc Computer Science &amp; AI, MTI · 2021 – 2025</p>
 
 <img src="assets/sec-06.svg" width="100%" alt="Signal" />
 
